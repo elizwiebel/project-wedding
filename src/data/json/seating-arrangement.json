@@ -4,10 +4,7 @@
             "id": "1",
             "guests": [
                 {
-                    "name": "John Doe"
-                },
-                {
-                    "name": "Jane Smith"
+                    "name": "Jane Doe"
                 },
                 {
                     "name": "John Smith"
@@ -18,10 +15,10 @@
             "id": "2",
             "guests": [
                 {
-                    "name": "Alice Johnson"
+                    "name": "Boris Johnson"
                 },
                 {
-                    "name": "Bob Brown"
+                    "name": "Justin Trudeau"
                 }
             ]
         }
