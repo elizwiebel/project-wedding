@@ -1,7 +1,11 @@
 .tableChecker {
     max-width: 400px;
-    margin: 2rem auto;
+    margin: 32px auto;
     padding: 16px;
+}
+
+.tableChecker h2 {
+    font-size: 28px;
 }
 
 .searchContainer {
@@ -29,6 +33,7 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .result {
@@ -37,4 +42,5 @@
     background-color: #f7fafc;
     border-radius: 10px;
     text-align: center;
+    font-size: 16px;
 }
