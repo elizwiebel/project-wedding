@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Wedding App",
-  description: "Wedding App for managing events and guests",
+  title: "Wedding app",
+  description: "Wedding app for managing events and guests",
 };
 
 export default function RootLayout({
