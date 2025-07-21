@@ -1,0 +1,29 @@
+{
+    "tables": [
+        {
+            "id": "1",
+            "guests": [
+                {
+                    "name": "John Doe"
+                },
+                {
+                    "name": "Jane Smith"
+                },
+                {
+                    "name": "John Smith"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "guests": [
+                {
+                    "name": "Alice Johnson"
+                },
+                {
+                    "name": "Bob Brown"
+                }
+            ]
+        }
+    ]
+}
