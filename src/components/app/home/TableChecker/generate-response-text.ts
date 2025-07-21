@@ -1,17 +1,22 @@
 import { findTableByName } from "@/components/app/home/TableChecker/find-table-by-name";
 
 export function generateResponseText(name: string): string {
-    const tableId = findTableByName(name);
+    const searchTerm = name.toLowerCase().trim();
+    const tableId = findTableByName(searchTerm);
 
-    if (name === "Steve Kravitsky" || name === "Steven Kravitsky") {
+    if (searchTerm === "") {
+        return "Please enter your name";
+    }
+
+    if (searchTerm === "steve kravitsky" || searchTerm === "steven kravitsky") {
         return "You would search for your own name";
     }
 
-    if (name === "Eli Zwiebel" || name === "Elijah Zwiebel") {
+    if (searchTerm == "eli zwiebel" || searchTerm == "elijah zwiebel") {
         return "I am the greetest";
     }
 
-    if (name.startsWith("as") || name.startsWith("fd")) {
+    if (searchTerm.startsWith("as") || searchTerm.startsWith("fd")) {
         return "Spamming eh?";
     }
 

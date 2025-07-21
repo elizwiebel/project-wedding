@@ -1,24 +1,29 @@
 .tableChecker {
     max-width: 400px;
     margin: 2rem auto;
-    padding: 1rem;
+    padding: 16px;
 }
 
 .searchContainer {
     display: flex;
-    gap: 1rem;
-    margin: 1rem 0;
+    gap: 16px;
+    margin: 16px 0;
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+    }
 }
 
 .searchContainer input {
     flex: 1;
-    padding: 0.5rem;
+    padding: 8px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    font-size: 16px;
 }
 
 .searchContainer button {
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     background-color: #4a5568;
     color: white;
     border: none;
@@ -27,8 +32,8 @@
 }
 
 .result {
-    margin-top: 1rem;
-    padding: 1rem;
+    margin-top: 16px;
+    padding: 16px;
     background-color: #f7fafc;
     border-radius: 10px;
     text-align: center;

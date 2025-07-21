@@ -17,7 +17,9 @@ export const TableChecker = () => {
             <h2>Find Your Table</h2>
             <div className={styles.searchContainer}>
                 <input
+                    name="name"
                     type="text"
+                    autoComplete="off"
                     value={searchName}
                     onChange={(e) => setSearchName(e.target.value)}
                     placeholder="Enter your name"
